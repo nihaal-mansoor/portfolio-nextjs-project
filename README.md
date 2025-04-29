@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a modern, responsive SaaS landing page built with Next.js 14, Tailwind CSS, and the App Router. It features a clean hero section, a dynamic startup search form, and integrated CMS data using Sanity.io.
 
 ## Getting Started
 
@@ -35,4 +35,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # portfolio-nextjs-project
-This is a modern, responsive SaaS landing page built with Next.js 14, Tailwind CSS, and the App Router. It features a clean hero section, a dynamic startup search form, and integrated CMS data using Sanity.io.
