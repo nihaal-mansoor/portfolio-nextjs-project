@@ -1,48 +1,37 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import 'easymde/dist/easymde.min.css'
 
-const workSans = localFont({
+const generalSans = localFont({
   src: [
     {
-      path: './fonts/WorkSans-Black.ttf',
-      weight: '900',
-      style: 'normal'
-    },{
-      path: './fonts/WorkSans-ExtraBold.ttf',
+      path: './fonts/GeneralSans-Bold.otf',
       weight: '800',
       style: 'normal'
     },{
-      path: './fonts/WorkSans-Bold.ttf',
+      path: './fonts/GeneralSans-Semibold.otf',
       weight: '700',
       style: 'normal'
     },{
-      path: './fonts/WorkSans-Black.ttf',
-      weight: '600',
-      style: 'normal'
-    },{
-      path: './fonts/WorkSans-Medium.ttf',
+      path: './fonts/GeneralSans-Medium.otf',
       weight: '500',
       style: 'normal'
     },{
-      path: './fonts/WorkSans-Regular.ttf',
+      path: './fonts/GeneralSans-Regular.otf',
       weight: '400',
       style: 'normal'
     },{
-      path: './fonts/WorkSans-Black.ttf',
+      path: './fonts/GeneralSans-Light.otf',
       weight: '300',
       style: 'normal'
     },{
-      path: './fonts/WorkSans-Thin.ttf',
-      weight: '200',
-      style: 'normal'
-    },{
-      path: './fonts/WorkSans-ExtraLight.ttf',
+      path: './fonts/GeneralSans-Extralight.otf',
       weight: '100',
       style: 'normal'
     },
   ],
-  variable: '--font-work-sans'
+  variable: '--font-general-sans'
 })
 
 export const metadata: Metadata = {
@@ -58,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${workSans.variable}`}
+        className={`${generalSans.variable}`}
       >
         {children}
       </body>

@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  /* config options here */
   images: {
     dangerouslyAllowSVG: true,
     remotePatterns: [
@@ -10,7 +11,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',         // Match all paths
       }
     ]
-  }  
+  } 
 };
 
 export default nextConfig;
